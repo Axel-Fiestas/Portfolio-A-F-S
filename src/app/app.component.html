@@ -26,8 +26,8 @@
       <div [ngClass]="isOpen ? 'block':'hidden'" class="px-2 py-3 sm:flex sm:p-0 sm:gap-10">
         <a href="#aboutMe" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,1 Home</a>
         <a href="#skills" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,2 Skills</a>
-        <a href="#" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,3 Projects</a>
-        <a href="#" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,4 Education</a>
+        <a href="#projects" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,3 Projects</a>
+        <a href="#education" class="mt-1 block px-2 py-1 text-sm font-normal rounded hover:bg-gray-800 hover:font-medium sm:mt-0 sm:ml-2">0,4 Education</a>
       </div>
 
     </div>
@@ -264,6 +264,40 @@
 
   </div>
 
+  <div id="education" class="pl-10 pr-10 mt-24">
+
+    <h2 class="opacity-70">Education</h2>
+
+    <div class="flex items-center justify-center container mx-auto">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-center">
+
+        <div class="card">
+          <div class="p-5 flex flex-col">
+            <div class="rounded-xl overflow-hidden">
+              <img class="m-auto w-28" src="assets/upc.png" alt="UPC Logo" />
+            </div>
+            <h5 class="text-center text-2xl md:text-3xl font-medium mt-3">UPC</h5>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="p-5 flex flex-col">
+            <div class="rounded-xl overflow-hidden">
+              <img class="m-auto w-36 " src="assets/one-logo.png" alt="Oracle Next Education Logo" />
+            </div>
+            <h5 class="text-center text-2xl md:text-3xl font-medium mt-3">ONE</h5>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
 </main>
 
 <!-- Footer section with social media icons and newsletter sign-up -->
@@ -344,16 +378,16 @@
 
         <ul class="mb-0 list-none">
           <li>
-            <a href="#!">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#!">About</a>
+            <a href="#aboutMe">About</a>
           </li>
           <li>
-            <a href="#!">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#!">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
         </ul>
       </div>

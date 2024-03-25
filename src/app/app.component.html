@@ -71,10 +71,10 @@
             </div>
 
 
-            <div class="text-center p-5 lg:p-12">
+            <div class="text-center lg:text-start p-5 lg:p-12 lg:animate-slidein">
 
-              <h1 class="text-3xl font-bold m-0 lg:text-7xl">Hola, Soy Axel</h1>
-              <h2 class="opacity-70">Desarrollador Full-Stack</h2>
+              <h1 class="text-3xl font-bold m-0 lg:text-8xl">Hola, <span>Soy Axel</span></h1>
+              <h2 class="lg:text-xl opacity-70">Desarrollador Full-Stack</h2>
               <p class="opacity-70">Me gusta crear cosas interesantes y que posean utilidad para quienes lo utilicen.</p>
 
             </div>
@@ -90,40 +90,44 @@
     <div class="mt-4 pl-5 pr-5 text-justify">
 
       <div class="mt-24 pl-5 pr-5 md:mt-10">
-        <h2 class="opacity-70">Sobre mi</h2>
+        <h2 class="opacity-70 lg:text-2xl">Sobre mi</h2>
 
-        <div>
-          <p class="text-sm">
-            Apasionado estudiante de Ingeniería de Software que ha estado
-            inmerso en esta carrera desde el año <span class="text-[#a897b0] font-bold">2020.</span>
-            Mi objetivo
-            principal es generar un impacto significativo a través de la creación
-            de software. Me esfuerzo por explorar continuamente nuevas
-            perspectivas para abordar desafíos, siempre buscando maneras creativas
-            de contribuir al mundo de la tecnología.
-          </p>
-        </div>
+        <div class="lg:w-[32rem] lg:m-auto lg:mt-4">
+          <div>
+            <p class="text-sm">
+              Apasionado estudiante de Ingeniería de Software que ha estado
+              inmerso en esta carrera desde el año <span class="text-[#a897b0] font-bold">2020.</span>
+              Mi objetivo
+              principal es generar un impacto significativo a través de la creación
+              de software. Me esfuerzo por explorar continuamente nuevas
+              perspectivas para abordar desafíos, siempre buscando maneras creativas
+              de contribuir al mundo de la tecnología.
+            </p>
+          </div>
 
-        <div class="mt-10">
-          <p class="text-sm">
-            Mi experiencia incluye la exploración de fundamentos de
-            programación,
-            <span class="text-[#a897b0] font-bold">diseño de patrones de software y conceptos clave en arquitectura de software, abarcando desde arquitecturas monolíticas hasta enfoques
+          <div class="mt-10">
+            <p class="text-sm">
+              Mi experiencia incluye la exploración de fundamentos de
+              programación,
+              <span class="text-[#a897b0] font-bold">diseño de patrones de software y conceptos clave en arquitectura de software, abarcando desde arquitecturas monolíticas hasta enfoques
         más modernos como microservicios.</span>
-            Esta diversidad de conocimientos me permite tener una visión integral
-            y adaptativa al enfrentarme a proyectos y problemas complejos en el
-            ámbito de la ingeniería de software.
-          </p>
-        </div>
+              Esta diversidad de conocimientos me permite tener una visión integral
+              y adaptativa al enfrentarme a proyectos y problemas complejos en el
+              ámbito de la ingeniería de software.
+            </p>
+          </div>
 
-        <div class="mt-10">
-          <p class="text-sm">
-            A medida que avanzo en mi
-            carrera, estoy comprometido a <span class="text-[#a897b0] font-bold">seguir aprendiendo y evolucionando,
+          <div class="mt-10">
+            <p class="text-sm">
+              A medida que avanzo en mi
+              carrera, estoy comprometido a <span class="text-[#a897b0] font-bold">seguir aprendiendo y evolucionando,
             siempre dispuesto a enfrentar nuevos retos y aportar soluciones
             innovadoras</span> al mundo tecnológico.
-          </p>
+            </p>
+          </div>
         </div>
+
+
 
 
       </div>
@@ -136,7 +140,7 @@
 
   <div id="skills" class="pl-10 pr-10">
 
-    <h2 class="opacity-70">Skills</h2>
+    <h2 class="opacity-70 lg:text-2xl">Skills</h2>
 
     <div class="flex items-center justify-center container mx-auto">
 
@@ -232,54 +236,56 @@
   </div>
 
   <div id="projects" class="pl-10 pr-10 mt-24">
-    <h2 class="opacity-70">Proyectos</h2>
+    <h2 class="opacity-70 lg:text-2xl">Proyectos</h2>
 
-    <div class="card">
-      <div class="p-5 flex flex-col gap-2">
-        <div class="rounded-xl overflow-hidden">
-          <img class="m-auto " src="assets/tucine.png" alt="TuCine Web Page" />
+    <div class="lg:w-9/12 lg:m-auto lg:flex ">
+
+      <div class="card">
+        <div class="p-5 flex flex-col gap-2">
+          <div class="rounded-xl overflow-hidden">
+            <img class="m-auto lg:w-[28rem]" src="assets/tucine.png" alt="TuCine Web Page" />
+          </div>
+          <h5 class="text-2xl md:text-3xl font-medium mt-3">TuCine</h5>
+          <p class="text-sm text-justify">Aplicación web para entusiastas del cine independiente. Se pueden realizar
+            compras de boletos para las funciones de las películas a emitir.</p>
+
+          <div class="flex gap-2 flex-wrap mt-2">
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Java</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Angular</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">EC2 AWS</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Spring Boot</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Docker</div>
+          </div>
+
         </div>
-        <h5 class="text-2xl md:text-3xl font-medium mt-3">TuCine</h5>
-        <p class="text-sm text-justify">Aplicación web para entusiastas del cine independiente. Se pueden realizar
-        compras de boletos para las funciones de las películas a emitir.</p>
+      </div>
+      <div class="card">
+        <div class="p-5 flex flex-col gap-2">
+          <div class="rounded-xl overflow-hidden">
+            <img class="m-auto lg:w-[28rem]" src="assets/crediapp.png" alt="Credi App Web Page" />
+          </div>
+          <h5 class="text-2xl md:text-3xl font-medium mt-3">CrediApp</h5>
+          <p class="text-sm text-justify">Aplicación web configurable que les permite a los usuarios
+            realizar un credito vehicular para sus vehículos mediante el método francés.</p>
 
-        <div class="flex gap-2 flex-wrap mt-2">
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Java</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Angular</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">EC2 AWS</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Spring Boot</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Docker</div>
+          <div class="flex gap-2 flex-wrap mt-2">
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Java</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">React</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Typescript</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Spring Boot</div>
+            <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Docker</div>
+          </div>
+
         </div>
-
       </div>
     </div>
 
-
-    <div class="card">
-      <div class="p-5 flex flex-col">
-        <div class="rounded-xl overflow-hidden">
-          <img class="m-auto " src="assets/crediapp.png" alt="Credi App Web Page" />
-        </div>
-        <h5 class="text-2xl md:text-3xl font-medium mt-3">CrediApp</h5>
-        <p class="text-sm text-justify">Aplicación web configurable que les permite a los usuarios
-          realizar un credito vehicular para sus vehículos mediante el método francés.</p>
-
-        <div class="flex gap-2 flex-wrap mt-2">
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Java</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">React</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Typescript</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Spring Boot</div>
-          <div class="bg-[#a897b0] rounded-2xl p-1.5 text-sm">Docker</div>
-        </div>
-
-      </div>
-    </div>
 
   </div>
 
   <div id="education" class="pl-10 pr-10 mt-24">
 
-    <h2 class="opacity-70">Education</h2>
+    <h2 class="opacity-70 lg:text-2xl">Education</h2>
 
     <div class="flex items-center justify-center container mx-auto">
 
